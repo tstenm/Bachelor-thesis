@@ -1,0 +1,12 @@
+
+Testergebnisse filtern und einzelne Dateien schreiben
+Das Ergebnis ist ein Ordner mit einzelnen Dateien, die je die Werte für minor faults, tlb store und load misses beinhalten.
+./extract_data <testdata_raw> 
+Anschließend können die einzelnen Dateien nach beliebigen zu CSV Dateien zusammengefügt werden, um die Testlängen werdedn auch bereitgestellt
+
+
+Gibt die Durchschnittswerte aus, der Pfad zur CSV Datei und der Name müssen spezifiziert werden. Namenskonventionen müssen beachtet werden. 
+Sollte nach Bedarf angepasst werden
+python3 get_average.py 
+
+

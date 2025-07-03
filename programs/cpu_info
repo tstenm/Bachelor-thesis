@@ -1,0 +1,11 @@
+Meine CPU:
+Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+
+Es muss sichergestellt werden, dass die CPU 1GB Pages unterstützt.
+Wird "cat /proc/cpuinfo" aufgerufen sollte unter Flags : pdpe1gb auftauchen
+
+Quelle : 
+https://wiki.debian.org/Hugepages
+
+
+

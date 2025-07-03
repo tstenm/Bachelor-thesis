@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+#
+scripts/config --enable CONFIG_KGDB
+scripts/config --enable CONFIG_GDB_SCRIPTS
+scripts/config --disable CONFIG_DEBUG_INFO_REDUCED
+scripts/config --enable CONFIG_DEBUG_KERNEL
+#scripts/config --enable CONFIG_FRAME_POINTER
+#activate huge pages
+scripts/config --enable CONFIG_HUGETLBFS
+scripts/config --enable CONFIG_HUGETLB_PAGE
+#gigantische Pages aktivieren
+scripts/config --enable CONFIG_HUGE_PAGE_SIZE_1GB
+#Deaktiviere THP
+scripts/config --disable CONFIG_TRANSPARENT_HUGEPAGE
+#Aktiviere serielle Schnittstellen, um qemu im nographic modus zu nutzen
+scripts/config --enable CONFIG_SERIAL_8250
+scripts/config --enable CONFIG_SERIAL_8250_CONSOLE
+
+make olddefconfig
+
+

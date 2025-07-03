@@ -1,0 +1,23 @@
+Kompilation : 
+1. test_array.h und die Testprogramme müssen sich im selben Verzeichnis befinden
+2. statische Kompilierung : gcc -static -o /busysbox/_install/bin/<name> <testprogram> 
+
+Vorbereitung : 
+1. Test Script und perf in  /busysbox/_install/bin/ positionieren
+
+
+Ausführung Testprogramm
+1. Qemu mit den nötigen Parametern ausstatten und Kernel im simulierten System starten. Sicherstellen, dass die Zuweisung der PUD-Pages beim Boot geschieht.
+2. PMD-Pages zur Laufzeit pre-allocaten : echo 512 > /sys/kernel/mm/hugepages/hugepages-2048kB/nr_hugepages
+3. ins bin Verzeichnis navigieren 
+4. ./test_script.sh <testprogram> 
+
+
+
+
+Testdaten auswerten:
+Mein Vorgehen 
+1. Output kopieren und in einem Textdokument einfügen
+2. Hilfsprogramm nutzen um CSV zu generieren
+3. Auswertung mit eigenen Miteln, in meinem Fall mithilfe von Latex
+

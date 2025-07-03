@@ -1,0 +1,557 @@
+ Performance counter stats for '././testprogramm_unmodifiedkernel 0':
+
+               867      minor-faults                                                          
+              3974      dTLB-load-misses                                                      
+              4197      dTLB-store-misses                                                     
+
+       0.026614731 seconds time elapsed
+
+       0.017549000 seconds user
+       0.008774000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 1':
+
+              1688      minor-faults                                                          
+              7313      dTLB-load-misses                                                      
+              8236      dTLB-store-misses                                                     
+
+       0.033190477 seconds time elapsed
+
+       0.016515000 seconds user
+       0.016515000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 2':
+
+              4293      minor-faults                                                          
+             18472      dTLB-load-misses                                                      
+             20811      dTLB-store-misses                                                     
+
+       0.083679906 seconds time elapsed
+
+       0.056852000 seconds user
+       0.028426000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 3':
+
+              7139      minor-faults                                                          
+             29857      dTLB-load-misses                                                      
+             34976      dTLB-store-misses                                                     
+
+       0.055155096 seconds time elapsed
+
+       0.052639000 seconds user
+       0.004049000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 4':
+
+             13696      minor-faults                                                          
+             56255      dTLB-load-misses                                                      
+             67328      dTLB-store-misses                                                     
+
+       0.086246141 seconds time elapsed
+
+       0.067853000 seconds user
+       0.019956000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 5':
+
+             20099      minor-faults                                                          
+             82732      dTLB-load-misses                                                      
+             98547      dTLB-store-misses                                                     
+
+       0.126515225 seconds time elapsed
+
+       0.091536000 seconds user
+       0.035818000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 6':
+
+             26818      minor-faults                                                          
+            110295      dTLB-load-misses                                                      
+            131705      dTLB-store-misses                                                     
+
+       0.170616115 seconds time elapsed
+
+       0.129900000 seconds user
+       0.040593000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 7':
+
+             33395      minor-faults                                                          
+            137135      dTLB-load-misses                                                      
+            164224      dTLB-store-misses                                                     
+
+       0.203225711 seconds time elapsed
+
+       0.136574000 seconds user
+       0.068287000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 8':
+
+             40271      minor-faults                                                          
+            164387      dTLB-load-misses                                                      
+            197512      dTLB-store-misses                                                     
+
+       0.246838403 seconds time elapsed
+
+       0.175119000 seconds user
+       0.071639000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 9':
+
+             46663      minor-faults                                                          
+            189315      dTLB-load-misses                                                      
+            230222      dTLB-store-misses                                                     
+
+       0.281422814 seconds time elapsed
+
+       0.226797000 seconds user
+       0.055704000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 10':
+
+             53453      minor-faults                                                          
+            218372      dTLB-load-misses                                                      
+            263304      dTLB-store-misses                                                     
+
+       0.330150840 seconds time elapsed
+
+       0.231919000 seconds user
+       0.099965000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 11':
+
+             60435      minor-faults                                                          
+            246781      dTLB-load-misses                                                      
+            297616      dTLB-store-misses                                                     
+
+       0.368309410 seconds time elapsed
+
+       0.262408000 seconds user
+       0.107349000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 12':
+
+             66628      minor-faults                                                          
+            273192      dTLB-load-misses                                                      
+            327526      dTLB-store-misses                                                     
+
+       0.424352047 seconds time elapsed
+
+       0.290801000 seconds user
+       0.135441000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 13':
+
+             73740      minor-faults                                                          
+            304649      dTLB-load-misses                                                      
+            362525      dTLB-store-misses                                                     
+
+       0.466563821 seconds time elapsed
+
+       0.345687000 seconds user
+       0.120588000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 14':
+
+             80193      minor-faults                                                          
+            325544      dTLB-load-misses                                                      
+            395417      dTLB-store-misses                                                     
+
+       0.484182375 seconds time elapsed
+
+       0.315958000 seconds user
+       0.167978000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 15':
+
+             86915      minor-faults                                                          
+            356791      dTLB-load-misses                                                      
+            427638      dTLB-store-misses                                                     
+
+       0.526899872 seconds time elapsed
+
+       0.368837000 seconds user
+       0.160363000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 16':
+
+             93347      minor-faults                                                          
+            379821      dTLB-load-misses                                                      
+            460388      dTLB-store-misses                                                     
+
+       0.559810879 seconds time elapsed
+
+       0.401893000 seconds user
+       0.160757000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 17':
+
+             99930      minor-faults                                                          
+            404551      dTLB-load-misses                                                      
+            492896      dTLB-store-misses                                                     
+
+       0.591933876 seconds time elapsed
+
+       0.465321000 seconds user
+       0.128364000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 18':
+
+            106884      minor-faults                                                          
+            435838      dTLB-load-misses                                                      
+            526350      dTLB-store-misses                                                     
+
+       0.652953189 seconds time elapsed
+
+       0.510177000 seconds user
+       0.147473000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 19':
+
+            113271      minor-faults                                                          
+            459903      dTLB-load-misses                                                      
+            557649      dTLB-store-misses                                                     
+
+       0.678796168 seconds time elapsed
+
+       0.495351000 seconds user
+       0.187754000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 20':
+
+            119838      minor-faults                                                          
+            484347      dTLB-load-misses                                                      
+            590771      dTLB-store-misses                                                     
+
+       0.722961992 seconds time elapsed
+
+       0.501808000 seconds user
+       0.220795000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 21':
+
+            126603      minor-faults                                                          
+            517141      dTLB-load-misses                                                      
+            620124      dTLB-store-misses                                                     
+
+       0.759877163 seconds time elapsed
+
+       0.552801000 seconds user
+       0.208301000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 22':
+
+            133332      minor-faults                                                          
+            543486      dTLB-load-misses                                                      
+            656714      dTLB-store-misses                                                     
+
+       0.794041839 seconds time elapsed
+
+       0.583424000 seconds user
+       0.211790000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 23':
+
+            139987      minor-faults                                                          
+            572154      dTLB-load-misses                                                      
+            689791      dTLB-store-misses                                                     
+
+       0.839837527 seconds time elapsed
+
+       0.609642000 seconds user
+       0.232626000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 24':
+
+            146748      minor-faults                                                          
+            595500      dTLB-load-misses                                                      
+            724071      dTLB-store-misses                                                     
+
+       0.879671773 seconds time elapsed
+
+       0.644889000 seconds user
+       0.236326000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 25':
+
+            153183      minor-faults                                                          
+            627399      dTLB-load-misses                                                      
+            753318      dTLB-store-misses                                                     
+
+       0.911165120 seconds time elapsed
+
+       0.671901000 seconds user
+       0.243964000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 26':
+
+            159971      minor-faults                                                          
+            648088      dTLB-load-misses                                                      
+            789062      dTLB-store-misses                                                     
+
+       0.950362329 seconds time elapsed
+
+       0.715987000 seconds user
+       0.235995000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 27':
+
+            166917      minor-faults                                                          
+            684182      dTLB-load-misses                                                      
+            821163      dTLB-store-misses                                                     
+
+       0.993366699 seconds time elapsed
+
+       0.763683000 seconds user
+       0.231903000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 28':
+
+            173282      minor-faults                                                          
+            702921      dTLB-load-misses                                                      
+            854689      dTLB-store-misses                                                     
+
+       1.033976779 seconds time elapsed
+
+       0.784488000 seconds user
+       0.252156000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 29':
+
+            179915      minor-faults                                                          
+            738534      dTLB-load-misses                                                      
+            883497      dTLB-store-misses                                                     
+
+       1.085162767 seconds time elapsed
+
+       0.758928000 seconds user
+       0.327537000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 30':
+
+            186795      minor-faults                                                          
+            758084      dTLB-load-misses                                                      
+            921335      dTLB-store-misses                                                     
+
+       1.120486097 seconds time elapsed
+
+       0.755237000 seconds user
+       0.367629000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 31':
+
+            193430      minor-faults                                                          
+            796833      dTLB-load-misses                                                      
+            952596      dTLB-store-misses                                                     
+
+       1.207007177 seconds time elapsed
+
+       0.877875000 seconds user
+       0.328702000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 32':
+
+            200029      minor-faults                                                          
+            816272      dTLB-load-misses                                                      
+            984050      dTLB-store-misses                                                     
+
+       1.241777644 seconds time elapsed
+
+       0.893004000 seconds user
+       0.348391000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 33':
+
+            206397      minor-faults                                                          
+            842105      dTLB-load-misses                                                      
+           1015669      dTLB-store-misses                                                     
+
+       1.244132564 seconds time elapsed
+
+       0.905569000 seconds user
+       0.339090000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 34':
+
+            213035      minor-faults                                                          
+            869447      dTLB-load-misses                                                      
+           1049132      dTLB-store-misses                                                     
+
+       1.280409444 seconds time elapsed
+
+       0.871970000 seconds user
+       0.407986000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 35':
+
+            219931      minor-faults                                                          
+            890294      dTLB-load-misses                                                      
+           1084197      dTLB-store-misses                                                     
+
+       1.314934571 seconds time elapsed
+
+       0.956631000 seconds user
+       0.360237000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 36':
+
+            226519      minor-faults                                                          
+            928002      dTLB-load-misses                                                      
+           1113569      dTLB-store-misses                                                     
+
+       1.364764336 seconds time elapsed
+
+       1.032249000 seconds user
+       0.332080000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 37':
+
+            233024      minor-faults                                                          
+            954287      dTLB-load-misses                                                      
+           1148897      dTLB-store-misses                                                     
+
+       1.388240950 seconds time elapsed
+
+       1.011247000 seconds user
+       0.379717000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 38':
+
+            240078      minor-faults                                                          
+            973503      dTLB-load-misses                                                      
+           1183292      dTLB-store-misses                                                     
+
+       1.434524425 seconds time elapsed
+
+       1.037530000 seconds user
+       0.396584000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 39':
+
+            246546      minor-faults                                                          
+            999980      dTLB-load-misses                                                      
+           1215526      dTLB-store-misses                                                     
+
+       1.473662159 seconds time elapsed
+
+       1.048280000 seconds user
+       0.428114000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 40':
+
+            299497      minor-faults                                                          
+           1219298      dTLB-load-misses                                                      
+           1473391      dTLB-store-misses                                                     
+
+       1.834600001 seconds time elapsed
+
+       1.338818000 seconds user
+       0.495562000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 41':
+
+            467403      minor-faults                                                          
+           1928259      dTLB-load-misses                                                      
+           2296276      dTLB-store-misses                                                     
+
+       2.974284471 seconds time elapsed
+
+       2.111030000 seconds user
+       0.863603000 seconds sys
+
+
+
+ Performance counter stats for '././testprogramm_unmodifiedkernel 42':
+
+            524313      minor-faults                                                          
+           2144577      dTLB-load-misses                                                      
+           2578171      dTLB-store-misses                                                     
+
+       3.162142546 seconds time elapsed
+
+       2.260287000 seconds user
+       0.904114000 seconds sys
+

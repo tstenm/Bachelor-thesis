@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Eingabe originale Datei mit Messdaten, die von perf generiert wurden
+#Ablauf : Entferne leere Reihen --> filtere > extrahiere -> speichere in Datei
+
+mkdir raw_data
+dir="raw_data"
+faults="minor_faults"
+load_misses="dTLB-load-misses"
+store_misses="dTLB-store-misses"
+touch $dir/$faults && echo $faults > $dir/$faults
+touch $dir/$load_misses && echo $load_misses > $dir/$load_misses
+touch $dir/$store_misses && echo $store_misses > $dir/$store_misses
+
+#remove empty rows --> only keep minor-faults and tlb-misses --> specify filtered value -->  create file with only the raw_data 
+sed '/^$/d' $1  | grep -E 'minor-faults'  | awk '{print $1}' > $dir/$faults
+sed '/^$/d' $1  | grep -E 'dTLB-load-misses'  | awk '{print $1}' > $dir/$load_misses
+sed '/^$/d' $1  | grep -E 'dTLB-store-misses' | awk '{print $1}' > $dir/$store_misses
