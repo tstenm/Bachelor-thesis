@@ -578,7 +578,8 @@ unsigned long do_mmap(struct file *file, unsigned long addr,
         memory. Compatability issues with higher order languages and functions that use mmap internally should be examined in the future, since this is only a proof-of-concept
         If there are not enough Hugepages in the needed size mmap simply fails. So keep in mind to calculate your need in advance and pre allocate them
          We only need 2 cases, since we dont have to change anything if we only do a mmap call with normal pages*/
-
+#define SZ_1GB (1UL << 30) 
+#define SZ_2MB (1UL << 21)
 unsigned long ksys_mmap_pgoff(unsigned long addr, unsigned long len,
 			      unsigned long prot, unsigned long flags,
 			      unsigned long fd, unsigned long pgoff)
