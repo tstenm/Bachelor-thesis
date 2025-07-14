@@ -1,0 +1,3 @@
+In diesem Ordner befindet sich eine statische bereits kompilierte Version von perf, falls es zu Schwierigkeiten bei der Kompilierung kommt.
+Die statische Kompilierung von perf war nervenaufreibend, da vieles nicht geklappt hat. Schließlich hat ein Artikel (Anhang Bacheloarbeit) und eine kleine Modifikation des make Befehls für reproduzierbare
+Ergebnisse gesorgt, die auf einer virtuellen Maschine in einem Ubuntu System getestet wurde. Demnach stellt dieser Ordner nur eine Vorsichtsmaßnahme dar.  
