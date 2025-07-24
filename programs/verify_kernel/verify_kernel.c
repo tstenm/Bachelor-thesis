@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
         //Teste ob der Zugriff auf die gesamte Region funktioniert, gibt bei einem Fehler einen Segmentationfault zurück	
         int *int_array = (int *)addr; 
         for (size_t j = 0; j < testlaengen[i] / sizeof(int); j++) {
-            int_array[j] = 2;
+            int_array[j] = 42;
         }
 	//Berechne verwende Hugepages für den Prozess und schließe die Systemdateien wieder
         fscanf(f, "%d", &PMD);	
