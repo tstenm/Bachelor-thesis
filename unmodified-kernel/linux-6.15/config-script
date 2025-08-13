@@ -1,7 +1,6 @@
 #!/bin/bash
 
-Debug Optionen
-#
+#Debug Optionen
 scripts/config --enable CONFIG_KGDB
 scripts/config --enable CONFIG_GDB_SCRIPTS
 scripts/config --disable CONFIG_DEBUG_INFO_REDUCED
