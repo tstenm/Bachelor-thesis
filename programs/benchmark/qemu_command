@@ -1,7 +1,7 @@
 1. Ausführung des unmodifizierten Kernels
 qemu-system-x86_64 \
   -kernel <kernel>/arch/x86/boot/bzImage \
-  -initrd <busybox>/initramfs.cpio.gz \
+  -initrd <busybox>/initramfs.cpio.gz\
   -append "console=ttyS0" \
   -nographic \
   -m 6G \
