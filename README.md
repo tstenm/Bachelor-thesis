@@ -6,5 +6,7 @@ PUD-Pages werden beim Boot reserviert.
 PMD-Pages können problemlos im laufenden Betrieb allokiert werden : n > /sys/kernel/mm/hugepages/hugepage-2048kB/nr_hugepages
 n ist die Anzahl der Hugepages. 
 
+Sollte es nach einer Ausführung von QEMU zu einer Fehlermeldung von kvm kommen, kann mit diesem Befehl kvm aktiviert werden :
+sudo modprobe kvm 
 
-
+Anschließende Deaktivierung : sudo modprobe -r kvm
