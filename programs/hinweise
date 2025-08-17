@@ -1,0 +1,9 @@
+Es ist wichtig zu beachten, dass beim Test des Kernels ausreichend Hugepages vorab reserviert werden. (wenn der modifizierte Kernel verwendet wird).
+PUD-Pages werden beim Boot reserviert (wie im Anhang beschrieben).
+PMD-Pages können problemlos im laufenden Betrieb allokiert werden : n > /sys/kernel/mm/hugepages/hugepage-2048kB/nr_hugepages
+n ist die Anzahl der Hugepages. 
+
+Sollte es nach einer Ausführung von QEMU zu einer Fehlermeldung von kvm kommen, kann mit diesem Befehl kvm aktiviert werden :
+sudo modprobe kvm 
+
+Anschließende Deaktivierung : sudo modprobe -r kvm
