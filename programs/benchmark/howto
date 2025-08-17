@@ -3,7 +3,7 @@ Kompilation :
 2. statische Kompilierung : gcc -static -o /busysbox/_install/bin/<name> <testprogram> 
 
 Vorbereitung : 
-1. Test Script und perf in  /busysbox/_install/bin/ positionieren
+1. Test Scrip, Testprogramme und perf in  /busysbox/_install/bin/ positionieren
 
 
 Ausführung Testprogramm
